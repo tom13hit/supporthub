@@ -299,3 +299,16 @@ nav a:hover{
     line-height:28px;
 
 }
+#particles-js{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:-2;
+
+}
+body{
+
+    overflow-x:hidden;
+}

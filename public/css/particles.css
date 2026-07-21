@@ -1,0 +1,13 @@
+.particle{
+
+    position:fixed;
+
+    border-radius:50%;
+
+    opacity:.8;
+
+    pointer-events:none;
+
+    z-index:-1;
+
+}
