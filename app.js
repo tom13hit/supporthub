@@ -3,6 +3,14 @@ const path = require("path");
 
 const app = express();
 
+app.use(express.urlencoded({ extended: true }));
+
+require('./config/database');
+
+const userRoutes = require('./routes/userRoutes');
+
+app.use(userRoutes);
+
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
